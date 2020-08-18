@@ -14,6 +14,11 @@
 		F3C9804D24EC9B49006AA1BF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F3C9804C24EC9B49006AA1BF /* Assets.xcassets */; };
 		F3C9805024EC9B49006AA1BF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F3C9804E24EC9B49006AA1BF /* LaunchScreen.storyboard */; };
 		F3C9805B24EC9B49006AA1BF /* Mobile_iOS_InterviewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3C9805A24EC9B49006AA1BF /* Mobile_iOS_InterviewTests.swift */; };
+		F3C9806724EC9BA7006AA1BF /* Movie.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3C9806624EC9BA7006AA1BF /* Movie.swift */; };
+		F3C9806924EC9C2A006AA1BF /* Actor.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3C9806824EC9C2A006AA1BF /* Actor.swift */; };
+		F3C9806B24EC9C70006AA1BF /* Genre.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3C9806A24EC9C70006AA1BF /* Genre.swift */; };
+		F3C9806E24EC9CBE006AA1BF /* ListMoviesResponse.json in Resources */ = {isa = PBXBuildFile; fileRef = F3C9806D24EC9CBE006AA1BF /* ListMoviesResponse.json */; };
+		F3C9807024EC9CDD006AA1BF /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3C9806F24EC9CDD006AA1BF /* User.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +43,11 @@
 		F3C9805624EC9B49006AA1BF /* Mobile iOS InterviewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Mobile iOS InterviewTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F3C9805A24EC9B49006AA1BF /* Mobile_iOS_InterviewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mobile_iOS_InterviewTests.swift; sourceTree = "<group>"; };
 		F3C9805C24EC9B49006AA1BF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F3C9806624EC9BA7006AA1BF /* Movie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Movie.swift; sourceTree = "<group>"; };
+		F3C9806824EC9C2A006AA1BF /* Actor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Actor.swift; sourceTree = "<group>"; };
+		F3C9806A24EC9C70006AA1BF /* Genre.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Genre.swift; sourceTree = "<group>"; };
+		F3C9806D24EC9CBE006AA1BF /* ListMoviesResponse.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = ListMoviesResponse.json; sourceTree = "<group>"; };
+		F3C9806F24EC9CDD006AA1BF /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +96,8 @@
 				F3C9804C24EC9B49006AA1BF /* Assets.xcassets */,
 				F3C9804E24EC9B49006AA1BF /* LaunchScreen.storyboard */,
 				F3C9805124EC9B49006AA1BF /* Info.plist */,
+				F3C9806524EC9B60006AA1BF /* Models */,
+				F3C9806C24EC9C9E006AA1BF /* Mocks */,
 			);
 			path = "Mobile iOS Interview";
 			sourceTree = "<group>";
@@ -97,6 +109,25 @@
 				F3C9805C24EC9B49006AA1BF /* Info.plist */,
 			);
 			path = "Mobile iOS InterviewTests";
+			sourceTree = "<group>";
+		};
+		F3C9806524EC9B60006AA1BF /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				F3C9806624EC9BA7006AA1BF /* Movie.swift */,
+				F3C9806824EC9C2A006AA1BF /* Actor.swift */,
+				F3C9806A24EC9C70006AA1BF /* Genre.swift */,
+				F3C9806F24EC9CDD006AA1BF /* User.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		F3C9806C24EC9C9E006AA1BF /* Mocks */ = {
+			isa = PBXGroup;
+			children = (
+				F3C9806D24EC9CBE006AA1BF /* ListMoviesResponse.json */,
+			);
+			path = Mocks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -181,6 +212,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F3C9805024EC9B49006AA1BF /* LaunchScreen.storyboard in Resources */,
+				F3C9806E24EC9CBE006AA1BF /* ListMoviesResponse.json in Resources */,
 				F3C9804D24EC9B49006AA1BF /* Assets.xcassets in Resources */,
 				F3C9804B24EC9B44006AA1BF /* Main.storyboard in Resources */,
 			);
@@ -202,7 +234,11 @@
 			files = (
 				F3C9804824EC9B44006AA1BF /* ViewController.swift in Sources */,
 				F3C9804424EC9B44006AA1BF /* AppDelegate.swift in Sources */,
+				F3C9806724EC9BA7006AA1BF /* Movie.swift in Sources */,
+				F3C9806B24EC9C70006AA1BF /* Genre.swift in Sources */,
 				F3C9804624EC9B44006AA1BF /* SceneDelegate.swift in Sources */,
+				F3C9806924EC9C2A006AA1BF /* Actor.swift in Sources */,
+				F3C9807024EC9CDD006AA1BF /* User.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -365,6 +401,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = R43CMNVK9E;
 				INFOPLIST_FILE = "Mobile iOS Interview/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -383,6 +420,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = R43CMNVK9E;
 				INFOPLIST_FILE = "Mobile iOS Interview/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

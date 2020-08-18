@@ -1,0 +1,286 @@
+[
+  {
+    "name": "Action & Adventure",
+    "created_at": "2018-05-24T03:43:19Z",
+    "updated_at": "2018-05-24T03:43:19Z",
+    "id": "gmnharjah0jw47osq98c",
+    "movies": [
+      {
+        "title": "Justice League",
+        "thumbnail_url": "https://i.pinimg.com/originals/d5/88/87/d58887fcac9b94fb03c3f402c2656250.jpg",
+        "imdb_score": 6.7,
+        "rt_score": 40,
+        "created_at": "2018-05-24T03:43:19Z",
+        "updated_at": "2018-05-24T03:43:19Z",
+        "liked": false,
+        "source_url": "https://www.rottentomatoes.com/m/justice_league_2017",
+        "synopsis": "Fueled by his restored faith in humanity and inspired by Superman's selfless act, Bruce Wayne enlists the help of his newfound ally, Diana …",
+        "id": "fqg8qund4v3sxvh7khd0",
+        "cast": [
+          {
+            "given_name": "Ben",
+            "family_name": "Affleck",
+            "created_at": "2018-05-24T03:43:19Z",
+            "updated_at": "2018-05-24T03:43:19Z",
+            "picture_url": "https://ia.media-imdb.com/images/M/MV5BMTI4MzIxMTk0Nl5BMl5BanBnXkFtZTcwOTU5NjA0Mg@@._V1_UX214_CR0,0,214,317_AL_.jpg",
+            "id": "2u41z909cny73ahzlwzf"
+          },
+          {
+            "given_name": "Henry",
+            "family_name": "Cavill",
+            "created_at": "2018-05-24T03:43:19Z",
+            "updated_at": "2018-05-24T03:43:19Z",
+            "picture_url": "https://ia.media-imdb.com/images/M/MV5BMTUxNTExMzUzOF5BMl5BanBnXkFtZTgwOTI1MjA3OTE@._V1_UX214_CR0,0,214,317_AL_.jpg",
+            "id": "7y4rknr6gq76ncf4wcwn"
+          },
+          {
+            "given_name": "Gal",
+            "family_name": "Gadot",
+            "created_at": "2018-05-24T03:43:19Z",
+            "updated_at": "2018-05-24T03:43:19Z",
+            "picture_url": "https://ia.media-imdb.com/images/M/MV5BMjUzZTJmZDItODRjYS00ZGRhLTg2NWQtOGE0YjJhNWVlMjNjXkEyXkFqcGdeQXVyMTg4NDI0NDM@._V1_UY317_CR51,0,214,317_AL_.jpg",
+            "id": "18uq9049f8uloywjkoq2"
+          },
+          {
+            "given_name": "Amy",
+            "family_name": "Adams",
+            "created_at": "2018-05-24T03:43:19Z",
+            "updated_at": "2018-05-24T03:43:19Z",
+            "picture_url": "https://ia.media-imdb.com/images/M/MV5BMjE4NjExMjI1OF5BMl5BanBnXkFtZTcwODc0MjY2OQ@@._V1_UX214_CR0,0,214,317_AL_.jpg",
+            "id": "z3olc2d9dyklc1zltfrf"
+          }
+        ]
+      },
+      {
+        "title": "Thor: Ragnarok",
+        "thumbnail_url": "https://ewedit.files.wordpress.com/2017/09/cr_krackle_thor_v2_sm.jpg",
+        "imdb_score": 5.4,
+        "rt_score": 32,
+        "created_at": "2018-05-24T03:43:19Z",
+        "updated_at": "2018-05-24T03:43:19Z",
+        "liked": false,
+        "source_url": "https://www.rottentomatoes.com/m/thor_ragnarok_2017",
+        "synopsis": "Thor is imprisoned on the other side of the universe without his mighty hammer and finds himself in a race against time to get back to Asgard …",
+        "id": "pvakkswktcjvhqwb1yih",
+        "cast": [
+          {
+            "given_name": "Chris",
+            "family_name": "Hemsworth",
+            "created_at": "2018-05-24T03:43:19Z",
+            "updated_at": "2018-05-24T03:43:19Z",
+            "picture_url": "https://www.biography.com/.image/ar_1:1%2Cc_fill%2Ccs_srgb%2Cg_face%2Cq_auto:good%2Cw_300/MTU0ODUwMjQ0NjIwNzI0MDAx/chris-hemsworth-poses-during-a-photo-call-for-thor-ragnarok-on-october-15-2017-in-sydney-australia-photo-by-mark-metcalfe_getty-images-for-disney-square.jpg",
+            "id": "ibfv827fms777lbxx976"
+          },
+          {
+            "given_name": "Tom",
+            "family_name": "Hiddleston",
+            "created_at": "2018-05-24T03:43:19Z",
+            "updated_at": "2018-05-24T03:43:19Z",
+            "picture_url": "https://www.gannett-cdn.com/-mm-/c3503c20111c08be82decc67fb2dd1980c36f117/c=0-0-4630-6174/local/-/media/2016/03/22/USATODAY/USATODAY/635942607794733294-XXX-TOM-HIDDLESTON0135-80692278.JPG?width=534&height=712&fit=crop",
+            "id": "74izxzl3cl2azlcglki8"
+          },
+          {
+            "given_name": "Mark",
+            "family_name": "Ruffalo",
+            "created_at": "2018-05-24T03:43:19Z",
+            "updated_at": "2018-05-24T03:43:19Z",
+            "picture_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/MarkRuffalo07TIFF.jpg/220px-MarkRuffalo07TIFF.jpg",
+            "id": "9yrl3ri5zhdfa1u9jyq0"
+          },
+          {
+            "given_name": "Cate",
+            "family_name": "Blanchett",
+            "created_at": "2018-05-24T03:43:19Z",
+            "updated_at": "2018-05-24T03:43:19Z",
+            "picture_url": "https://ia.media-imdb.com/images/M/MV5BMjM0OTAwMDA3OF5BMl5BanBnXkFtZTgwODgyODYxODE@._CR46,141,1314,1314_UX402_UY402._SY201_SX201_AL_.jpg",
+            "id": "ryep2pws7qlv3ivdpz6r"
+          }
+        ]
+      },
+      {
+        "title": "Spider-Man: Homecoming",
+        "thumbnail_url": "https://images-na.ssl-images-amazon.com/images/I/71myggAB1UL._SY679_.jpg",
+        "imdb_score": 6.6,
+        "rt_score": 48,
+        "created_at": "2018-05-24T03:43:19Z",
+        "updated_at": "2018-05-24T03:43:19Z",
+        "liked": true,
+        "source_url": "https://www.rottentomatoes.com/m/spider_man_homecoming",
+        "synopsis": "A young Peter Parker/Spider-Man (Tom Holland), who made his sensational debut in Captain America: Civil War, begins to navigate his newfound identity …",
+        "id": "x0xrjzidoz6n5orynvyq",
+        "cast": [
+          {
+            "given_name": "Tom",
+            "family_name": "Holland",
+            "created_at": "2018-05-24T03:43:19Z",
+            "updated_at": "2018-05-24T03:43:19Z",
+            "picture_url": "https://pixel.nymag.com/imgs/daily/vulture/2015/06/23/23-tom-holland-2.w700.h700.jpg",
+            "id": "0y3hv2fsoo2968zhyho6"
+          },
+          {
+            "given_name": "Michael",
+            "family_name": "Keaton",
+            "created_at": "2018-05-24T03:43:19Z",
+            "updated_at": "2018-05-24T03:43:19Z",
+            "picture_url": "http://image.cleveland.com/home/cleve-media/width600/img/plain_dealer_metro/photo/18th-annual-hollywood-film-awards---portrait-studio-fcc47e8599a52ad1.jpg",
+            "id": "7wgbktxeen4u3kkngyoe"
+          },
+          {
+            "given_name": "Donald",
+            "family_name": "Glover",
+            "created_at": "2018-05-24T03:43:19Z",
+            "updated_at": "2018-05-24T03:43:19Z",
+            "picture_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2a/Donald_Glover_TIFF_2015.jpg/220px-Donald_Glover_TIFF_2015.jpg",
+            "id": "wdf6pww6bpjpxuhj8h3q"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Comedy",
+    "created_at": "2018-05-24T03:43:19Z",
+    "updated_at": "2018-05-24T03:43:19Z",
+    "id": "kw1xigufefqg49n2xqsh",
+    "movies": [
+      {
+        "title": "Game Night",
+        "thumbnail_url": "https://i0.wp.com/teaser-trailer.com/wp-content/uploads/Game-Night-New-film-poster.jpg?ssl=1",
+        "imdb_score": 7.2,
+        "rt_score": 57,
+        "created_at": "2018-05-24T03:43:19Z",
+        "updated_at": "2018-05-24T03:43:19Z",
+        "liked": false,
+        "source_url": "https://www.rottentomatoes.com/m/game_night_2018",
+        "synopsis": "Bateman and McAdams star as Max and Annie, whose weekly couples game night gets kicked up a notch when Max's charismatic brother …",
+        "id": "hn3sat60kwyt1akd90uf",
+        "cast": [
+          {
+            "given_name": "Jason",
+            "family_name": "Bateman",
+            "created_at": "2018-05-24T03:43:19Z",
+            "updated_at": "2018-05-24T03:43:19Z",
+            "picture_url": "https://cdn1.thr.com/sites/default/files/imagecache/scale_crop_768_433/2017/05/gettyimages-646507974_-_h_2017.jpg",
+            "id": "5nh3b1mcr4ujls3r4pyq"
+          },
+          {
+            "given_name": "Sharon",
+            "family_name": "Horgan",
+            "created_at": "2018-05-24T03:43:19Z",
+            "updated_at": "2018-05-24T03:43:19Z",
+            "picture_url": "https://pixel.nymag.com/imgs/fashion/daily/2016/04/08/08-sharon-horgan.w700.h700.jpg",
+            "id": "ef3vzrxzopnqwpki0ygs"
+          },
+          {
+            "given_name": "Rachel",
+            "family_name": "Mcadams",
+            "created_at": "2018-05-24T03:43:19Z",
+            "updated_at": "2018-05-24T03:43:19Z",
+            "picture_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/de/RachelMcAdamsO7TIFF.jpg/170px-RachelMcAdamsO7TIFF.jpg",
+            "id": "5bhv8hg31i9pkko6atlo"
+          },
+          {
+            "given_name": "Billy",
+            "family_name": "Magnussen",
+            "created_at": "2018-05-24T03:43:19Z",
+            "updated_at": "2018-05-24T03:43:19Z",
+            "picture_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a1/Billy_Magnussen_2011_%28cropped%29.jpg/220px-Billy_Magnussen_2011_%28cropped%29.jpg",
+            "id": "80vgzdx7uz3815kjnx6n"
+          }
+        ]
+      },
+      {
+        "title": "I, Tonya",
+        "thumbnail_url": "https://i0.wp.com/teaser-trailer.com/wp-content/uploads/I-Tonya-poster.jpg?ssl=1",
+        "imdb_score": 8.3,
+        "rt_score": 73,
+        "created_at": "2018-05-24T03:43:19Z",
+        "updated_at": "2018-05-24T03:43:19Z",
+        "liked": true,
+        "source_url": "https://www.rottentomatoes.com/m/i_tonya",
+        "synopsis": "Based on the unbelievable, but true events, I, TONYA is a darkly comedic tale of American figure skater, Tonya Harding, and one …",
+        "id": "01xaduuguqknotohvynt",
+        "cast": [
+          {
+            "given_name": "Margot",
+            "family_name": "Robbie",
+            "created_at": "2018-05-24T03:43:19Z",
+            "updated_at": "2018-05-24T03:43:19Z",
+            "picture_url": "https://cdn.britannica.com/s:300x1000/32/201632-004-95C5BB16.jpg",
+            "id": "lbrs7ybmca2bsfy17q8t"
+          },
+          {
+            "given_name": "Sebastian",
+            "family_name": "Stan",
+            "created_at": "2018-05-24T03:43:19Z",
+            "updated_at": "2018-05-24T03:43:19Z",
+            "picture_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fe/Sebastian_Stan_TIFF_2015.jpg/220px-Sebastian_Stan_TIFF_2015.jpg",
+            "id": "76oujduig4oke2agt165"
+          },
+          {
+            "given_name": "Allison",
+            "family_name": "Janney",
+            "created_at": "2018-05-24T03:43:19Z",
+            "updated_at": "2018-05-24T03:43:19Z",
+            "picture_url": "https://www.biography.com/.image/ar_1:1%2Cc_fill%2Ccs_srgb%2Cg_face%2Cq_auto:good%2Cw_300/MTQxMDA5MzEyODA4OTY5Mzk5/allison-janney-gettyimages-507018868_1600jpg.jpg",
+            "id": "jqku7993s0vw5x4l9o7r"
+          },
+          {
+            "given_name": "Bobby",
+            "family_name": "Cannavale",
+            "created_at": "2018-05-24T03:43:19Z",
+            "updated_at": "2018-05-24T03:43:19Z",
+            "picture_url": "https://vignette.wikia.nocookie.net/boardwalkempire/images/3/3b/Bobby_cannavale.jpg/revision/latest?cb=20120810182826",
+            "id": "h4yc6raq6wmvrujim3c8"
+          }
+        ]
+      },
+      {
+        "title": "Early Man",
+        "thumbnail_url": "https://static2.showtimes.com/poster/660x980/early-man-123787.jpg",
+        "imdb_score": 9.2,
+        "rt_score": 90,
+        "created_at": "2018-05-24T03:43:19Z",
+        "updated_at": "2018-05-24T03:43:19Z",
+        "liked": true,
+        "source_url": "https://www.rottentomatoes.com/m/early_man",
+        "synopsis": "In this stop-motion animated comedy set in prehistoric times, a tribe of primitive hunters are displaced from their homes …",
+        "id": "p98ezia1rjda0nbp9a14",
+        "cast": [
+          {
+            "given_name": "Eddie",
+            "family_name": "Redmayne",
+            "created_at": "2018-05-24T03:43:19Z",
+            "updated_at": "2018-05-24T03:43:19Z",
+            "picture_url": "https://www.gannett-cdn.com/presto/2018/11/11/USAT/2b156a65-0e0e-4ecf-9a78-3512a2f6d9df-XXX_Eddie_Redmayne_20181102_USA_djm_0027.jpg?width=534&height=712&fit=bounds&auto=webp",
+            "id": "sude37z2mhb28yvhrxh1"
+          },
+          {
+            "given_name": "Tom",
+            "family_name": "Hiddleston",
+            "created_at": "2018-05-24T03:43:19Z",
+            "updated_at": "2018-05-24T03:43:19Z",
+            "picture_url": "https://www.gannett-cdn.com/-mm-/c3503c20111c08be82decc67fb2dd1980c36f117/c=0-0-4630-6174/local/-/media/2016/03/22/USATODAY/USATODAY/635942607794733294-XXX-TOM-HIDDLESTON0135-80692278.JPG?width=534&height=712&fit=crop",
+            "id": "bs7nc5w39hmihtk3qqxt"
+          },
+          {
+            "given_name": "Maisie",
+            "family_name": "Williams",
+            "created_at": "2018-05-24T03:43:19Z",
+            "updated_at": "2018-05-24T03:43:19Z",
+            "picture_url": "https://www.thetimes.co.uk/imageserver/image/methode%2Ftimes%2Fprod%2Fweb%2Fbin%2F42c0d9e8-f704-11e7-a789-003e705b951e.jpg?crop=3493%2C1965%2C274%2C17&resize=685",
+            "id": "gixjw440i10ut6mvzbn9"
+          },
+          {
+            "given_name": "Richard",
+            "family_name": "Ayoade",
+            "created_at": "2018-05-24T03:43:19Z",
+            "updated_at": "2018-05-24T03:43:19Z",
+            "picture_url": "https://resizing.flixster.com/Ohni1mQS-9juL6h-jnKA5RTrbsc=/300x300/v1.cjs0MzE0MTtqOzE4MDQ1OzEyMDA7MjIwOzE5Ng",
+            "id": "b3ul7ht19y78rc0l5h0t"
+          }
+        ]
+      }
+    ]
+  }
+]
