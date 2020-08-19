@@ -19,6 +19,7 @@
 		F3C9806B24EC9C70006AA1BF /* Genre.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3C9806A24EC9C70006AA1BF /* Genre.swift */; };
 		F3C9806E24EC9CBE006AA1BF /* ListMoviesResponse.json in Resources */ = {isa = PBXBuildFile; fileRef = F3C9806D24EC9CBE006AA1BF /* ListMoviesResponse.json */; };
 		F3C9807024EC9CDD006AA1BF /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3C9806F24EC9CDD006AA1BF /* User.swift */; };
+		F3C9807224EC9F51006AA1BF /* GetUserProfileResponse.json in Resources */ = {isa = PBXBuildFile; fileRef = F3C9807124EC9F50006AA1BF /* GetUserProfileResponse.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +49,7 @@
 		F3C9806A24EC9C70006AA1BF /* Genre.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Genre.swift; sourceTree = "<group>"; };
 		F3C9806D24EC9CBE006AA1BF /* ListMoviesResponse.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = ListMoviesResponse.json; sourceTree = "<group>"; };
 		F3C9806F24EC9CDD006AA1BF /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		F3C9807124EC9F50006AA1BF /* GetUserProfileResponse.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = GetUserProfileResponse.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -126,6 +128,7 @@
 			isa = PBXGroup;
 			children = (
 				F3C9806D24EC9CBE006AA1BF /* ListMoviesResponse.json */,
+				F3C9807124EC9F50006AA1BF /* GetUserProfileResponse.json */,
 			);
 			path = Mocks;
 			sourceTree = "<group>";
@@ -214,6 +217,7 @@
 				F3C9805024EC9B49006AA1BF /* LaunchScreen.storyboard in Resources */,
 				F3C9806E24EC9CBE006AA1BF /* ListMoviesResponse.json in Resources */,
 				F3C9804D24EC9B49006AA1BF /* Assets.xcassets in Resources */,
+				F3C9807224EC9F51006AA1BF /* GetUserProfileResponse.json in Resources */,
 				F3C9804B24EC9B44006AA1BF /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
