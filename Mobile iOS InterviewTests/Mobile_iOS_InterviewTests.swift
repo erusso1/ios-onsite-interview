@@ -10,25 +10,45 @@ import XCTest
 @testable import Mobile_iOS_Interview
 
 class Mobile_iOS_InterviewTests: XCTestCase {
+    
+    private let baseUrl: URL = URL(string: "https://private-anon-3e65cd2730-iosinterview1.apiary-mock.com")!
 
     override func setUpWithError() throws {
         // Put setup code here. This method is called before the invocation of each test method in the class.
+        
     }
 
     override func tearDownWithError() throws {
         // Put teardown code here. This method is called after the invocation of each test method in the class.
+        
     }
 
-    func testExample() throws {
-        // This is an example of a functional test case.
-        // Use XCTAssert and related functions to verify your tests produce the correct results.
-    }
+    func testDeserializeGenresResponse() throws {
 
-    func testPerformanceExample() throws {
-        // This is an example of a performance test case.
-        self.measure {
-            // Put the code you want to measure the time of here.
-        }
+        // This test deserializes the `Genre` array found in
+        // `ListMoviesResponse.json`, and asserts that the array is not empty.
+        
     }
-
+    
+    func testDeserializeUserProfileResponse() throws {
+        
+        // This test deserializes the `User` object found in
+        // `GetUserProfileResponse.json` and asserts that the user
+        // properties are correct.
+        
+    }
+    
+    func testGetGenresFromNetwork() {
+        
+        // This test performs an HTTP GET network request at `/movies/genres`
+        // and deserializes the response accordingly
+        
+    }
+    
+    func testGeUserProfileFromNetwork() {
+        
+        // This test performs an HTTP GET network request at `/users/me`
+        // and deserializes the response accordingly
+        
+    }
 }
