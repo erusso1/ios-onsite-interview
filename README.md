@@ -1,10 +1,11 @@
-# Metal iOS On-Site Challenge
+# iOS On-Site Starter Project
 
-Welcome to the Metal iOS On-Site interview challenge repo! Please clone the repo and open using the latest iOS SDK. The project should build right out of the box.
+Welcome to the Metal on-site interview starter project repo! Please clone the repo and open using the latest iOS SDK (Xcode 11). The project should build right out of the box.
 
 Here are resources you may need during the interview:
 
-API Documentation: https://iosinterview1.docs.apiary.io/#reference/0/profile/get-user-profile
+API Documentation: 
+https://iosinterview1.docs.apiary.io
 
 Zeplin:
 https://zpl.io/VYAMg6e
