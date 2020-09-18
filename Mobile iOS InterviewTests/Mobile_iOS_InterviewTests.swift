@@ -12,6 +12,12 @@ import XCTest
 class Mobile_iOS_InterviewTests: XCTestCase {
     
     private let baseUrl: URL = URL(string: "https://private-anon-3e65cd2730-iosinterview1.apiary-mock.com")!
+    private let decoder: JSONDecoder = {
+        let dec = JSONDecoder()
+        dec.dateDecodingStrategy = .iso8601
+        dec.keyDecodingStrategy = .convertFromSnakeCase
+        return dec
+    }()
 
     override func setUpWithError() throws {
         // Put setup code here. This method is called before the invocation of each test method in the class.
@@ -22,13 +28,6 @@ class Mobile_iOS_InterviewTests: XCTestCase {
         // Put teardown code here. This method is called after the invocation of each test method in the class.
         
     }
-
-    func testDeserializeGenresResponse() throws {
-
-        // This test deserializes the `Genre` array found in
-        // `ListMoviesResponse.json`, and asserts that the array is not empty.
-        
-    }
     
     func testDeserializeUserProfileResponse() throws {
         
@@ -37,17 +36,24 @@ class Mobile_iOS_InterviewTests: XCTestCase {
         // properties are correct.
         
     }
-    
-    func testGetGenresFromNetwork() {
-        
-        // This test performs an HTTP GET network request at `/movies/genres`
-        // and deserializes the response accordingly
+
+    func testDeserializeGenresResponse() throws {
+
+        // This test deserializes the `Genre` array found in
+        // `ListMoviesResponse.json`, and asserts that the array is not empty.
         
     }
     
     func testGeUserProfileFromNetwork() {
         
         // This test performs an HTTP GET network request at `/users/me`
+        // and deserializes the response accordingly
+        
+    }
+        
+    func testGetGenresFromNetwork() {
+        
+        // This test performs an HTTP GET network request at `/movies/genres`
         // and deserializes the response accordingly
         
     }

@@ -8,7 +8,7 @@
 
 import Foundation
 
-struct Genre: Identifiable {
+struct Genre: Identifiable, Decodable {
     
     let name: String
     let createdAt: Date
