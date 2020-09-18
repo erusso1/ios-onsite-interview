@@ -22,3 +22,12 @@ struct Movie: Identifiable, Decodable {
     let id: String
     let cast: [Actor]
 }
+
+extension Movie {
+    
+    // TODO: F - Implement me
+    /// Returns a weighted score between 0.0 and 10.0, computed by averaging the
+    /// `imdbScore` and `rtScore` vlaues. For example, a `Movie` with an `imdbScore`
+    /// of 100.0 and an rtScore of `5.0` would have a weighted score of `7.5`
+    var weightedScore: Float { 0.0 }
+}

@@ -16,3 +16,10 @@ struct Genre: Identifiable, Decodable {
     let id: String
     let movies: [Movie]
 }
+
+extension Genre {
+    
+    /// Returns a weighted score based on the average of the containing
+    /// `movies` `weightedScore` values.
+    var weightedScore: Float { 0.0 }
+}

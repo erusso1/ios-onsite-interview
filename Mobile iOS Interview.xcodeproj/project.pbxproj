@@ -7,6 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F3B5A2262514859200E578A3 /* ActorDetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3B5A2252514859200E578A3 /* ActorDetailViewModel.swift */; };
+		F3B5A22B2514887D00E578A3 /* ActorDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3B5A22A2514887D00E578A3 /* ActorDetailView.swift */; };
+		F3B5A22F25148E1B00E578A3 /* GenresListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3B5A22E25148E1B00E578A3 /* GenresListViewModel.swift */; };
+		F3B5A2352514902700E578A3 /* GetUserProfileResponse.json in Resources */ = {isa = PBXBuildFile; fileRef = F3C9807124EC9F50006AA1BF /* GetUserProfileResponse.json */; };
+		F3B5A23D2514911300E578A3 /* ActorDetailView.xib in Resources */ = {isa = PBXBuildFile; fileRef = F3B5A23C2514911300E578A3 /* ActorDetailView.xib */; };
+		F3B5A2442514966B00E578A3 /* ViewHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3B5A2432514966B00E578A3 /* ViewHelpers.swift */; };
+		F3B5A248251499B200E578A3 /* Mocks.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3B5A247251499B200E578A3 /* Mocks.swift */; };
+		F3B5A24B25149B5200E578A3 /* ListMoviesResponse.json in Resources */ = {isa = PBXBuildFile; fileRef = F3C9806D24EC9CBE006AA1BF /* ListMoviesResponse.json */; };
 		F3C9804424EC9B44006AA1BF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3C9804324EC9B44006AA1BF /* AppDelegate.swift */; };
 		F3C9804624EC9B44006AA1BF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3C9804524EC9B44006AA1BF /* SceneDelegate.swift */; };
 		F3C9804824EC9B44006AA1BF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3C9804724EC9B44006AA1BF /* ViewController.swift */; };
@@ -17,9 +25,7 @@
 		F3C9806724EC9BA7006AA1BF /* Movie.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3C9806624EC9BA7006AA1BF /* Movie.swift */; };
 		F3C9806924EC9C2A006AA1BF /* Actor.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3C9806824EC9C2A006AA1BF /* Actor.swift */; };
 		F3C9806B24EC9C70006AA1BF /* Genre.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3C9806A24EC9C70006AA1BF /* Genre.swift */; };
-		F3C9806E24EC9CBE006AA1BF /* ListMoviesResponse.json in Resources */ = {isa = PBXBuildFile; fileRef = F3C9806D24EC9CBE006AA1BF /* ListMoviesResponse.json */; };
 		F3C9807024EC9CDD006AA1BF /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3C9806F24EC9CDD006AA1BF /* User.swift */; };
-		F3C9807224EC9F51006AA1BF /* GetUserProfileResponse.json in Resources */ = {isa = PBXBuildFile; fileRef = F3C9807124EC9F50006AA1BF /* GetUserProfileResponse.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,6 +39,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		F3B5A2252514859200E578A3 /* ActorDetailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActorDetailViewModel.swift; sourceTree = "<group>"; };
+		F3B5A22A2514887D00E578A3 /* ActorDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActorDetailView.swift; sourceTree = "<group>"; };
+		F3B5A22E25148E1B00E578A3 /* GenresListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenresListViewModel.swift; sourceTree = "<group>"; };
+		F3B5A23C2514911300E578A3 /* ActorDetailView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ActorDetailView.xib; sourceTree = "<group>"; };
+		F3B5A2432514966B00E578A3 /* ViewHelpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewHelpers.swift; sourceTree = "<group>"; };
+		F3B5A247251499B200E578A3 /* Mocks.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mocks.swift; sourceTree = "<group>"; };
 		F3C9804024EC9B44006AA1BF /* Mobile iOS Interview.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Mobile iOS Interview.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F3C9804324EC9B44006AA1BF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F3C9804524EC9B44006AA1BF /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -70,6 +82,42 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		F3B5A2242514857300E578A3 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				F3B5A2252514859200E578A3 /* ActorDetailViewModel.swift */,
+				F3B5A22E25148E1B00E578A3 /* GenresListViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		F3B5A2292514887100E578A3 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				F3B5A22A2514887D00E578A3 /* ActorDetailView.swift */,
+				F3B5A23C2514911300E578A3 /* ActorDetailView.xib */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		F3B5A2342514901700E578A3 /* Mocks */ = {
+			isa = PBXGroup;
+			children = (
+				F3C9807124EC9F50006AA1BF /* GetUserProfileResponse.json */,
+				F3C9806D24EC9CBE006AA1BF /* ListMoviesResponse.json */,
+				F3B5A247251499B200E578A3 /* Mocks.swift */,
+			);
+			path = Mocks;
+			sourceTree = "<group>";
+		};
+		F3B5A2402514965800E578A3 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				F3B5A2432514966B00E578A3 /* ViewHelpers.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
 		F3C9803724EC9B44006AA1BF = {
 			isa = PBXGroup;
 			children = (
@@ -98,8 +146,10 @@
 				F3C9804C24EC9B49006AA1BF /* Assets.xcassets */,
 				F3C9804E24EC9B49006AA1BF /* LaunchScreen.storyboard */,
 				F3C9805124EC9B49006AA1BF /* Info.plist */,
+				F3B5A2292514887100E578A3 /* Views */,
+				F3B5A2242514857300E578A3 /* ViewModels */,
 				F3C9806524EC9B60006AA1BF /* Models */,
-				F3C9806C24EC9C9E006AA1BF /* Mocks */,
+				F3B5A2402514965800E578A3 /* Utilities */,
 			);
 			path = "Mobile iOS Interview";
 			sourceTree = "<group>";
@@ -108,6 +158,7 @@
 			isa = PBXGroup;
 			children = (
 				F3C9805A24EC9B49006AA1BF /* Mobile_iOS_InterviewTests.swift */,
+				F3B5A2342514901700E578A3 /* Mocks */,
 				F3C9805C24EC9B49006AA1BF /* Info.plist */,
 			);
 			path = "Mobile iOS InterviewTests";
@@ -122,15 +173,6 @@
 				F3C9806F24EC9CDD006AA1BF /* User.swift */,
 			);
 			path = Models;
-			sourceTree = "<group>";
-		};
-		F3C9806C24EC9C9E006AA1BF /* Mocks */ = {
-			isa = PBXGroup;
-			children = (
-				F3C9806D24EC9CBE006AA1BF /* ListMoviesResponse.json */,
-				F3C9807124EC9F50006AA1BF /* GetUserProfileResponse.json */,
-			);
-			path = Mocks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -215,10 +257,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				F3C9805024EC9B49006AA1BF /* LaunchScreen.storyboard in Resources */,
-				F3C9806E24EC9CBE006AA1BF /* ListMoviesResponse.json in Resources */,
 				F3C9804D24EC9B49006AA1BF /* Assets.xcassets in Resources */,
-				F3C9807224EC9F51006AA1BF /* GetUserProfileResponse.json in Resources */,
 				F3C9804B24EC9B44006AA1BF /* Main.storyboard in Resources */,
+				F3B5A23D2514911300E578A3 /* ActorDetailView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -226,6 +267,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F3B5A2352514902700E578A3 /* GetUserProfileResponse.json in Resources */,
+				F3B5A24B25149B5200E578A3 /* ListMoviesResponse.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -241,8 +284,12 @@
 				F3C9806724EC9BA7006AA1BF /* Movie.swift in Sources */,
 				F3C9806B24EC9C70006AA1BF /* Genre.swift in Sources */,
 				F3C9804624EC9B44006AA1BF /* SceneDelegate.swift in Sources */,
+				F3B5A22F25148E1B00E578A3 /* GenresListViewModel.swift in Sources */,
+				F3B5A2442514966B00E578A3 /* ViewHelpers.swift in Sources */,
+				F3B5A2262514859200E578A3 /* ActorDetailViewModel.swift in Sources */,
 				F3C9806924EC9C2A006AA1BF /* Actor.swift in Sources */,
 				F3C9807024EC9CDD006AA1BF /* User.swift in Sources */,
+				F3B5A22B2514887D00E578A3 /* ActorDetailView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -251,6 +298,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F3C9805B24EC9B49006AA1BF /* Mobile_iOS_InterviewTests.swift in Sources */,
+				F3B5A248251499B200E578A3 /* Mocks.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
