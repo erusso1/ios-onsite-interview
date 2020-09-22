@@ -25,9 +25,12 @@ class Mobile_iOS_InterviewTests: XCTestCase {
     
     func testDeserializeUserProfileResponse() throws {
         
+        // TODO: H - Implement me
+
         // This test deserializes the `User` object found in
         // `GetUserProfileResponse.json` and asserts that the user
         // properties are correct.
+        
         
     }
 
@@ -41,6 +44,8 @@ class Mobile_iOS_InterviewTests: XCTestCase {
     
     func testGeUserProfileFromNetwork() {
         
+        // TODO: I - Implement me
+
         // This test performs an HTTP GET network request at `/users/me`
         // and deserializes the response accordingly
         
@@ -48,6 +53,8 @@ class Mobile_iOS_InterviewTests: XCTestCase {
         
     func testGetGenresFromNetwork() {
         
+        // TODO: J - Implement me
+
         // This test performs an HTTP GET network request at `/movies/genres`
         // and deserializes the response accordingly
         
