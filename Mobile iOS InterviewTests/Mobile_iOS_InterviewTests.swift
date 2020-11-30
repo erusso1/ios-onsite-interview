@@ -14,6 +14,10 @@ class Mobile_iOS_InterviewTests: XCTestCase {
     // For full docs, see https://iosinterview1.docs.apiary.io/#
     private let baseUrl: URL = URL(string: "https://private-anon-c4a8f2e9c6-iosinterview1.apiary-mock.com")!
     
+    override class func setUp() {
+        NetworkingClient.enableLogging()
+    }
+    
     override func setUpWithError() throws {
         // Put setup code here. This method is called before the invocation of each test method in the class.
         

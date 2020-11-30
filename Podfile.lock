@@ -1,0 +1,16 @@
+PODS:
+  - Reqres (3.1.1)
+
+DEPENDENCIES:
+  - Reqres
+
+SPEC REPOS:
+  trunk:
+    - Reqres
+
+SPEC CHECKSUMS:
+  Reqres: 4ebafc15b75c65fdf67edcec14520d43b836d4da
+
+PODFILE CHECKSUM: 8a53c41476a8bed7b1d6e5d2cd39d7a6eda2a993
+
+COCOAPODS: 1.9.3

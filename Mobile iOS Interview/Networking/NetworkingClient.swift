@@ -7,6 +7,7 @@
 //
 
 import Foundation
+import Reqres
 
 enum NetworkingClient {
     
@@ -31,6 +32,10 @@ enum NetworkingClient {
         case delete = "DELETE"
         case put = "PUT"
         case patch = "PATCH"
+    }
+    
+    static func enableLogging() {
+        Reqres.register()
     }
     
     @discardableResult static func sendRequest<T: Decodable>(_ method: Method, to url: URL, as: T.Type, completion: @escaping NetworkResultHandler<T>) -> URLSessionDataTask {
