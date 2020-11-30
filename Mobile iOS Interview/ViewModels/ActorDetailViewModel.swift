@@ -19,11 +19,11 @@ final class ActorDetailViewModel: NSObject {
         self.refreshDisplayImage()
     }
     
-    // TODO: B - Implement me
+    // TODO: A - Implement me
     /// Returns the actor's full name for display.
     var displayName: String { "" }
     
-    // TODO: C - Implement me
+    // TODO: B - Implement me
     /// Returns the actor's career start date for display in the following format: "January 7, 1981"
     var displayCareerStartDate: String { "" }
     
@@ -31,7 +31,7 @@ final class ActorDetailViewModel: NSObject {
     /// changes in this propery via KVO.
     @objc dynamic var displayImage: UIImage?
     
-    // TODO: D - Implement me
+    // TODO: C - Implement me
     /// Refreshes the value of `displayImage` by fetching the `actor`'s `pictureUrl`.
     func refreshDisplayImage() {
         

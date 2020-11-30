@@ -19,7 +19,7 @@ struct Genre: Identifiable, Decodable {
 
 extension Genre {
     
-    // TODO: K - Implement me
+    // TODO: F - Implement me
     
     /// Returns a weighted score based on the average of the containing
     /// `movies` `weightedScore` values.

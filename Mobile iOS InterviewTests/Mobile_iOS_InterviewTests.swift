@@ -11,7 +11,8 @@ import XCTest
 
 class Mobile_iOS_InterviewTests: XCTestCase {
     
-    private let baseUrl: URL = URL(string: "https://private-anon-3e65cd2730-iosinterview1.apiary-mock.com")!
+    // For full docs, see https://iosinterview1.docs.apiary.io/#
+    private let baseUrl: URL = URL(string: "https://private-anon-c4a8f2e9c6-iosinterview1.apiary-mock.com")!
     
     override func setUpWithError() throws {
         // Put setup code here. This method is called before the invocation of each test method in the class.
@@ -23,6 +24,14 @@ class Mobile_iOS_InterviewTests: XCTestCase {
         
     }
     
+    func testDeserializeGenresResponse() throws {
+        
+        // This test deserializes the `Genre` array found in
+        // `ListMoviesResponse.json`, and asserts that the array is not empty.
+        
+        XCTAssertFalse(Mocks.genres.isEmpty)
+    }
+    
     func testDeserializeUserProfileResponse() throws {
         
         // TODO: H - Implement me
@@ -32,14 +41,6 @@ class Mobile_iOS_InterviewTests: XCTestCase {
         // properties are correct.
         
         
-    }
-
-    func testDeserializeGenresResponse() throws {
-
-        // This test deserializes the `Genre` array found in
-        // `ListMoviesResponse.json`, and asserts that the array is not empty.
-        
-        XCTAssertFalse(Mocks.genres.isEmpty)
     }
     
     func testGeUserProfileFromNetwork() {
