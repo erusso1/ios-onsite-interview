@@ -40,6 +40,9 @@ class Mobile_iOS_InterviewTests: XCTestCase {
         // `GetUserProfileResponse.json` and asserts that the user
         // properties are correct.
         
+        XCTAssertNotNil(Mocks.user, "User was not deserialized right.")
+        
+        XCTAssertEqual(Mocks.user?.id, "dr82croec4igianatz15")
         
     }
     
@@ -50,6 +53,29 @@ class Mobile_iOS_InterviewTests: XCTestCase {
         // This test performs an HTTP GET network request at `/users/me`
         // and deserializes the response accordingly
         
+        
+        
+        let userUrl = baseUrl.appendingPathComponent("users")
+        let meUrl = userUrl.appendingPathComponent("me")
+        
+        let exp = expectation(description: "")
+
+        let task = URLSession.shared.dataTask(with: meUrl) { (data, res, error) in
+            defer {
+                exp.fulfill()
+            }
+                        
+            guard let data = data else {
+                XCTAssertFalse(true, "")
+                return
+            }
+            let user = try? Mocks.decoder.decode(User.self, from: data)
+
+            XCTAssertNotNil(user)
+        }
+        
+        task.resume()
+        waitForExpectations(timeout: 10, handler: nil)
     }
         
     func testGetGenresFromNetwork() {

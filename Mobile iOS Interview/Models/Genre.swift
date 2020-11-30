@@ -23,5 +23,5 @@ extension Genre {
     
     /// Returns a weighted score based on the average of the containing
     /// `movies` `weightedScore` values.
-    var weightedScore: Float { 0.0 }
+    var weightedScore: Float { movies.map {$0.weightedScore}.reduce(0, +) / Float(movies.count)}
 }

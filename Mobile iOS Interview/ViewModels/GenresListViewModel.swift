@@ -19,5 +19,19 @@ final class GenresListViewModel: NSObject {
     
     // TODO: G - Implement me
     /// Returns the display title for the `Genre` with overall best movies (computed by the average of the movies' `weightedScore`.
-    var displayBestGenreTitle: String { "" }
+    var displayBestGenreTitle: String {
+        var highIndex: Int = 0
+        var highScore: Float = .leastNormalMagnitude
+        for index in 0..<genres.count {
+            let genre = genres[index]
+            
+            if genre.weightedScore > highScore {
+                highScore = genre.weightedScore
+                highIndex = index
+            }
+            
+        }
+        
+        return genres[highIndex].name
+    }
 }

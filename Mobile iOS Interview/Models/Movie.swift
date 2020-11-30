@@ -29,5 +29,5 @@ extension Movie {
     /// Returns a weighted score between 0.0 and 10.0, computed by averaging the
     /// `imdbScore` and `rtScore` vlaues. For example, a `Movie` with an `imdbScore`
     /// of 10.0 and an rtScore of `50` would have a weighted score of `7.5`
-    var weightedScore: Float { 0.0 }
+    var weightedScore: Float { (imdbScore + Float(rtScore / 10)) / 2 }
 }
