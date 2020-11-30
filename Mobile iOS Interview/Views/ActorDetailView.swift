@@ -25,7 +25,7 @@ final class ActorDetailView: UIView {
     
     @IBOutlet private weak var imageView: UIImageView! {
         didSet {
-            // TODO: D - Round the corners to circle, add a white border with a border width of 2, and add a black dropshadow with 30% opacity, 20.0 radius, and 20.0 y offset.
+            // TODO: D - Round the corners to circle, add a white border with a border width of 4, and add a black dropshadow with 30% opacity, 20.0 radius, and 20.0 y offset.
         }
     }
     
