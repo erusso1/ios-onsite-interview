@@ -52,29 +52,25 @@ class Mobile_iOS_InterviewTests: XCTestCase {
 
         // This test performs an HTTP GET network request at `/users/me`
         // and deserializes the response accordingly
-        
-        
-        
-        let userUrl = baseUrl.appendingPathComponent("users")
-        let meUrl = userUrl.appendingPathComponent("me")
+                
+        let url = baseUrl
+            .appendingPathComponent("users")
+            .appendingPathComponent("me")
         
         let exp = expectation(description: "")
-
-        let task = URLSession.shared.dataTask(with: meUrl) { (data, res, error) in
-            defer {
-                exp.fulfill()
-            }
-                        
-            guard let data = data else {
-                XCTAssertFalse(true, "")
-                return
-            }
-            let user = try? Mocks.decoder.decode(User.self, from: data)
-
-            XCTAssertNotNil(user)
-        }
         
-        task.resume()
+        NetworkingClient.sendRequest(.get, to: url, as: User.self) { result in
+            
+            defer { exp.fulfill() }
+            
+            switch result {
+            case .success(_):
+                XCTAssert(true)
+            case .failure(let error):
+                XCTAssert(false, error.localizedDescription)
+            }
+        }
+
         waitForExpectations(timeout: 10, handler: nil)
     }
         
@@ -85,5 +81,24 @@ class Mobile_iOS_InterviewTests: XCTestCase {
         // This test performs an HTTP GET network request at `/movies/genres`
         // and deserializes the response accordingly
         
+        let url = baseUrl
+            .appendingPathComponent("movies")
+            .appendingPathComponent("genres")
+        
+        let exp = expectation(description: "")
+        
+        NetworkingClient.sendRequest(.get, to: url, as: [Genre].self) { result in
+            
+            defer { exp.fulfill() }
+            
+            switch result {
+            case .success(let genres):
+                XCTAssertFalse(genres.isEmpty)
+            case .failure(let error):
+                XCTAssert(false, error.localizedDescription)
+            }
+        }
+                
+        waitForExpectations(timeout: 10, handler: nil)
     }
 }

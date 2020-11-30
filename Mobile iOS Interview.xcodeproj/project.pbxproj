@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F3803E9A257582C4009DFAA1 /* NetworkingClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3803E99257582C4009DFAA1 /* NetworkingClient.swift */; };
 		F3B5A2262514859200E578A3 /* ActorDetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3B5A2252514859200E578A3 /* ActorDetailViewModel.swift */; };
 		F3B5A22B2514887D00E578A3 /* ActorDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3B5A22A2514887D00E578A3 /* ActorDetailView.swift */; };
 		F3B5A22F25148E1B00E578A3 /* GenresListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3B5A22E25148E1B00E578A3 /* GenresListViewModel.swift */; };
@@ -39,6 +40,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		F3803E99257582C4009DFAA1 /* NetworkingClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkingClient.swift; sourceTree = "<group>"; };
 		F3B5A2252514859200E578A3 /* ActorDetailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActorDetailViewModel.swift; sourceTree = "<group>"; };
 		F3B5A22A2514887D00E578A3 /* ActorDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActorDetailView.swift; sourceTree = "<group>"; };
 		F3B5A22E25148E1B00E578A3 /* GenresListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenresListViewModel.swift; sourceTree = "<group>"; };
@@ -82,6 +84,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		F3803E98257582A5009DFAA1 /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				F3803E99257582C4009DFAA1 /* NetworkingClient.swift */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
 		F3B5A2242514857300E578A3 /* ViewModels */ = {
 			isa = PBXGroup;
 			children = (
@@ -149,6 +159,7 @@
 				F3B5A2292514887100E578A3 /* Views */,
 				F3B5A2242514857300E578A3 /* ViewModels */,
 				F3C9806524EC9B60006AA1BF /* Models */,
+				F3803E98257582A5009DFAA1 /* Networking */,
 				F3B5A2402514965800E578A3 /* Utilities */,
 			);
 			path = "Mobile iOS Interview";
@@ -290,6 +301,7 @@
 				F3C9806924EC9C2A006AA1BF /* Actor.swift in Sources */,
 				F3C9807024EC9CDD006AA1BF /* User.swift in Sources */,
 				F3B5A22B2514887D00E578A3 /* ActorDetailView.swift in Sources */,
+				F3803E9A257582C4009DFAA1 /* NetworkingClient.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
