@@ -35,6 +35,7 @@ final class ActorDetailView: UIView {
             contentView.layer.shadowOffset = CGSize(width: 0, height: 20)
             contentView.layer.shadowColor = UIColor.black.cgColor
             contentView.layer.shadowOpacity = 0.3
+            contentView.layer.shadowRadius = 20.0
             contentView.addSubview(imageView)
             
             imageView.layer.cornerRadius = imageView.frame.width/2
